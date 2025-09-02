@@ -2,6 +2,35 @@
 body{
     font-family: 'Jost', sans-serif;
     color: white;
-    background-color: #1a202c;
+    /* background-color: #1a202c; */
     letter-spacing: 0.05em;
 }
+
+
+@keyframes move {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-1rem); }
+  }
+  
+  @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  @keyframes scaleup {
+    0%, 100% { transform: scale(0.8); }
+    50% { transform: scale(1.2); }
+  }
+  
+  .animate-moving {
+    animation: move 3s ease-in-out infinite;
+  }
+  
+  .animate-rotating {
+    animation: rotate 6s linear infinite;
+  }
+  
+  .animate-scalingUp {
+    animation: scaleup 3s ease-in-out infinite;
+  }
+  
