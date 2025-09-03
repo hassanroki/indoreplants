@@ -34,3 +34,7 @@ body{
     animation: scaleup 3s ease-in-out infinite;
   }
   
+  /* Popular */
+  .popularCard:hover img{
+    top: -32px;
+  }
