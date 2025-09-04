@@ -34,7 +34,15 @@ body{
     animation: scaleup 3s ease-in-out infinite;
   }
   
-  /* Popular */
+  /* Popular Section*/
   .popularCard:hover img{
     top: -32px;
+  }
+
+
+  /* Review Section */
+  .swiper-pagination-bullet{
+    background-color: rgb(34 197 94);
+    width: 12px;
+    height: 12px;
   }
