@@ -6,6 +6,14 @@ body{
     letter-spacing: 0.05em;
 }
 
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.active{
+  color: yellow;
+}
 
 @keyframes move {
     0%, 100% { transform: translateY(0); }
