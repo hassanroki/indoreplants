@@ -133,3 +133,7 @@ sr.reveal('.review_leaf, .footer_floral', {
   delay: 1000,
   origin: "left",
 })
+
+// Dynmaic Copy Right Year
+document.getElementById("current-year").textContent =
+            new Date().getFullYear();
